@@ -58,9 +58,6 @@ header {
     padding: 0.8rem 1.5rem;
     background: #0fc; }
 
-pre, code {
-  font-family: 'Cutive Mono'; }
-
 #about {
   text-align: left; }
 
@@ -69,5 +66,17 @@ pre, code {
 
 footer {
   text-align: left; }
+
+pre, code {
+  font-family: 'Cutive Mono'; }
+
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  padding: 0; }
+
+ol {
+  list-style-position: outside;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
