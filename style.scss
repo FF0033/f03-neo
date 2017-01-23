@@ -4,9 +4,9 @@
 }
 html{
     padding:0;
-    font:24px/1.5 'Cutive Mono','Lato Sans','Open Sans','Liberation Sans','Arial','Helvetica';
+    font:16px/1.5 'SimSun',georgia,cursive;
     min-height:100%;
-    background:#0fc;
+    background:#1f121c;
     color:#f03;
 }
 body{
@@ -32,23 +32,24 @@ a{
 }
 h1,h2{
     margin:0;
-    font-size:3rem;
+    font-size:1rem;
     line-height:3;
     font-weight:normal;
-    font-family: 'Nixie One', cursive;
+    font-family:'SimSun',georgia,cursive;
 }
 h2{
-    font-size:2rem;
+    font-size:17px;
     line-height:1.5;
     border-bottom:1px dashed #f03;
     position:relative;
     &:after{
         content:"\2701";
+        font-size:42px;
         font-weight:normal;
-        font-family:sans-serif;
+        font-family:'SimSun',georgia,cursive;
         position:absolute;
         right:15%;
-        bottom:-1.33rem;
+        bottom:-1.74rem;
 
     }
 }
@@ -63,7 +64,6 @@ header{
         margin:3rem 0;
         display:inline-block;
         padding:0.8rem 1.5rem;
-        background:#0fc;
     }
 }
 #about{
@@ -78,7 +78,7 @@ footer{
 }
 
 pre,code{
-    font-family:'Cutive Mono';
+    font-family:'SimSun',georgia,cursive;
 }
 ul{
     list-style-type:square;
@@ -88,4 +88,11 @@ ul{
 ol{
     list-style-position:outside;
     padding:0;
+}
+h3{
+    font-size:17px;
+    font-weight:normal;
+    background:#f03;
+    color:#1f121c;
+    text-align:center;
 }
